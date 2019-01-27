@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prj2timerconstraints.ucf -p xc3s100e-cp132-5 prj2timer.ngc prj2timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o prj2timer_map.ncd prj2timer.ngd prj2timer.pcf 
+par -w -intstyle ise -ol high -t 1 prj2timer_map.ncd prj2timer.ncd prj2timer.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prj2timer.twx prj2timer.ncd -o prj2timer.twr prj2timer.pcf -ucf prj2timerconstraints.ucf 
+bitgen -intstyle ise -f prj2timer.ut prj2timer.ncd 
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prj2timerconstraints.ucf -p xc3s100e-cp132-5 prj2timer.ngc prj2timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o prj2timer_map.ncd prj2timer.ngd prj2timer.pcf 
+par -w -intstyle ise -ol high -t 1 prj2timer_map.ncd prj2timer.ncd prj2timer.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prj2timer.twx prj2timer.ncd -o prj2timer.twr prj2timer.pcf -ucf prj2timerconstraints.ucf 
+bitgen -intstyle ise -f prj2timer.ut prj2timer.ncd 
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prj2timerconstraints.ucf -p xc3s100e-cp132-5 prj2timer.ngc prj2timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o prj2timer_map.ncd prj2timer.ngd prj2timer.pcf 
+par -w -intstyle ise -ol high -t 1 prj2timer_map.ncd prj2timer.ncd prj2timer.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prj2timer.twx prj2timer.ncd -o prj2timer.twr prj2timer.pcf -ucf prj2timerconstraints.ucf 
+bitgen -intstyle ise -f prj2timer.ut prj2timer.ncd 
+xst -intstyle ise -ifn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.xst" -ofn "C:/Users/phys234user/Desktop/UmarAlan/prj2timer/prj2timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc prj2timerconstraints.ucf -p xc3s100e-cp132-5 prj2timer.ngc prj2timer.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o prj2timer_map.ncd prj2timer.ngd prj2timer.pcf 
+par -w -intstyle ise -ol high -t 1 prj2timer_map.ncd prj2timer.ncd prj2timer.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prj2timer.twx prj2timer.ncd -o prj2timer.twr prj2timer.pcf -ucf prj2timerconstraints.ucf 
+bitgen -intstyle ise -f prj2timer.ut prj2timer.ncd 

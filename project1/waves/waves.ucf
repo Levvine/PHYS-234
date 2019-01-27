@@ -1,0 +1,7 @@
+net speaker loc = "A3";
+net clk loc = "B8";
+net button[0] loc = "A7";
+net button[1] loc = "M4";
+net button[2] loc = "C11";
+net button[3] loc = "G12";
+net switch loc = "P11";

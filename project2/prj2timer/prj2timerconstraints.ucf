@@ -1,0 +1,4 @@
+net sclk loc = "B8";
+net switch loc = "P11";
+net reset loc = "G12";
+net TxD loc = "A3";

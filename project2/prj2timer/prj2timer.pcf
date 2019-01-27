@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.58f on Tue Dec 11 15:16:04 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "switch" LOCATE = SITE "P11" LEVEL 1;
+COMP "sclk" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset" LOCATE = SITE "G12" LEVEL 1;
+COMP "TxD" LOCATE = SITE "A3" LEVEL 1;
+NET "sclk_BUFGP/IBUFG" BEL "sclk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

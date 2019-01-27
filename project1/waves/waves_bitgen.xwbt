@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\phys234user\Desktop\UmarAlan\waves\waves.ncd
+OUTFILE=C:\Users\phys234user\Desktop\UmarAlan\waves\waves.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\phys234user\Desktop\UmarAlan\waves
+LICENSE=WebPack
+USER_INFO=210758369_0_0_138
